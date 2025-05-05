@@ -1,0 +1,50 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "glass effect",
+    "fields": {
+        "AAD": {
+            "caption": "id",
+            "doc": "The id of the element to apply the glass effect to.",
+            "editor": "StaticText",
+            "name": "id",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "opacity",
+            "default_val": 0.25,
+            "doc": "Sets the background opacity of the glass effect, ranging from 0 (transparent) to 1 (opaque).",
+            "editor": "DynamicValue",
+            "name": "opacity",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "blur",
+            "default_val": 8,
+            "doc": "Determines the intensity of the backdrop blur effect in pixels.",
+            "editor": "DynamicValue",
+            "name": "blur",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "color",
+            "default_val": "light",
+            "editor": "Dropdown",
+            "name": "color",
+            "options": "light,dark",
+            "rank": 3
+        }
+    },
+    "icon": "ion-wand",
+    "property_applications": {
+        "Background": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
